@@ -11,7 +11,7 @@ if(email === 'savagecat@gmail.com' && pass === 'cat909'){
     window.location.href = 'index-1.html';
 }
 else{
-    alert('invalid! please put valid info');
+    alert('invalid! please put valid info ');
 }
 
 })
