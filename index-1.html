@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Bank</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#0f172a]">
+
+    <header>
+
+        <h1 class="text-5xl text-center mt-10 text-[#8a9eb8]"><span class="font-semibold text-amber-600">GOoOLDEN</span>
+            Baap Er Bank</span>
+        </h1>
+        <p class="text-base text-center mt-5 text-[#8a9eb8]">Let's Get Some Golden Money!😉🤝</p>
+
+    </header>
+
+
+    <main>
+
+        <section class="mt-14">
+            <div class="grid grid-cols-3 gap-10 w-2/3 mx-auto">
+
+                <div class="bg-gradient-to-r from-[#09203F] to-[#657b87] ... p-10 rounded">
+                    <h4 class="text-2xl text-white">DEPOSIT</h4>
+                    <h2 class="text-white text-5xl">$<span id="deposit-total">00</span></h2>
+                </div>
+
+                <div class="bg-gradient-to-r from-[#19335A] to-gray-700 ... p-10 rounded">
+                    <h4 class="text-2xl text-white">WITHDRAW</h4>
+                    <h2 class="text-white text-5xl">$<span id="Withdraw-total">00</span></h2>
+                </div>
+
+                <div class="bg-gradient-to-r from-[#112a31] to-[#657b87] ...  p-10 rounded">
+                    <h4 class="text-2xl text-white">BALANCE</h4>
+                    <h2 class=" text-white text-5xl">$<span id="balance-total">3099</span></h2>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="mt-14">
+            <div class="grid grid-cols-2 gap-10 w-2/3 mx-auto">
+
+                <div class="bg-gradient-to-r from-[#8a9eb8] to-gray-800 ...  p-10 rounded">
+                    <h4 class="text-2xl text-white">PLEASE DEPOSIT</h4>
+
+                    <input class=" mt-5 w-9/12 mb-5 block p-2 rounded-md" type="text" name="" id="deposit-field"
+                        placeholder="$ Amount You Want To Deposit">
+                    <button id="btn-deposit" class="px-5 py-1 hover:bg-sky-800 bg-[#617c8d] rounded-md">Deposit</button>
+
+                </div>
+
+                <div class="bg-[#4b7569] p-10 rounded">
+                    <h4 class="text-2xl text-white">PLEASE WITHDRAW</h4>
+
+                    <input class=" mt-5 w-9/12 mb-5 block p-2 rounded-md" type="text" name="" id="Withdraw-field"
+                        placeholder="$ Amount You Want To W">
+                    <button id="btn-withdraw" class="px-5 py-1 hover:bg-sky-800 bg-[#617c8d] rounded-md">Withdraw</button>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="error.js"></script>
+    <script src="with.js"></script>
+</body>
+
+</html>
